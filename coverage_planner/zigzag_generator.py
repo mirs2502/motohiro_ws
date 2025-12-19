@@ -31,6 +31,10 @@ class ZigzagGenerator(Node):
         
         # パラメータ（ロボット幅）を取得
         robot_width = self.get_parameter('robot_width').get_parameter_value().double_value
+        
+        # マージン（コーンに近づきすぎないようにする）
+        margin = 0.3 # 50cm -> 30cm に戻す
+
         if robot_width <= 0:
             self.get_logger().error('robot_width must be greater than 0')
             return
@@ -41,11 +45,19 @@ class ZigzagGenerator(Node):
             return
 
         # 1. 多角形の範囲 (Min/Max) を計算 (AABB)
-        # (ダミーノードは四角形なので、これで十分)
-        min_x = min(p.x for p in points)
-        max_x = max(p.x for p in points)
-        min_y = min(p.y for p in points)
-        max_y = max(p.y for p in points)
+        # マージンを適用して範囲を縮小
+        min_x = min(p.x for p in points) + margin
+        max_x = max(p.x for p in points) - margin
+        min_y = min(p.y for p in points) + margin
+        max_y = max(p.y for p in points) - margin
+        
+        # 範囲が逆転した場合は中心点のみにするなどの処理が必要だが、
+        # ここでは単純にスキップ（または中心1点）
+        if min_x > max_x or min_y > max_y:
+             self.get_logger().warn('Polygon is too small for the given margin.')
+             # 中心点を計算してそこをゴールにするなどのフォールバックも考えられるが、
+             # 一旦は何もしない（パス生成失敗 -> BT側でハンドリングされるべき）
+             return
 
         # 2. ジグザグ経路 (Path) のウェイポイントを生成
         path_msg = Path()
