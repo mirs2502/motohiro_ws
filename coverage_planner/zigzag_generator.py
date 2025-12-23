@@ -13,7 +13,7 @@ class ZigzagGenerator(Node):
         # マージンパラメータ (ロボットの半径 + 安全余裕)
         # ロボットサイズ 500mm x 500mm -> 半径約 35cm (対角線/2) または 幅/2 = 25cm
         # 進入禁止エリア(コーン)に当たらないように、少し大きめのマージンを取る
-        self.declare_parameter('safety_margin', 0.6) 
+        self.declare_parameter('safety_margin', 0.5) 
 
         # /cone_area トピックをサブスクライブ
         self.subscription = self.create_subscription(
@@ -96,20 +96,40 @@ class ZigzagGenerator(Node):
                     if direction == 1:
                         # 下から上へ
                         for y_s, y_e in segments:
-                            path_msg.poses.append(self.create_pose(current_x, y_s, msg.header))
-                            path_msg.poses.append(self.create_pose(current_x, y_e, msg.header))
+                            # 始点と終点の間を補間して追加
+                            self.add_interpolated_poses(path_msg, current_x, y_s, current_x, y_e, msg.header)
                     else:
-                        # 上から下へ (セグメントの順番も逆にするべきだが、凸なら1つなので関係ない)
-                        # 複数の場合は上にあるセグメントから処理すべき
+                        # 上から下へ
                         for y_s, y_e in reversed(segments):
-                            path_msg.poses.append(self.create_pose(current_x, y_e, msg.header))
-                            path_msg.poses.append(self.create_pose(current_x, y_s, msg.header))
+                            # 始点と終点の間を補間して追加
+                            self.add_interpolated_poses(path_msg, current_x, y_e, current_x, y_s, msg.header)
 
             # 次のラインへ
             current_x += robot_width
             direction *= -1
 
         self.path_publisher_.publish(path_msg)
+        self.get_logger().info(f'Published path with {len(path_msg.poses)} waypoints.')
+
+    def add_interpolated_poses(self, path_msg, x1, y1, x2, y2, header, resolution=0.1):
+        """
+        2点間 (x1, y1) -> (x2, y2) を resolution 間隔で補間し、path_msg に追加する
+        """
+        dist = math.hypot(x2 - x1, y2 - y1)
+        if dist < 1e-6:
+            # 距離がほぼ0なら始点のみ追加（またはスキップ）
+            path_msg.poses.append(self.create_pose(x1, y1, header))
+            return
+
+        num_points = int(dist / resolution)
+        if num_points < 1:
+            num_points = 1
+        
+        for i in range(num_points + 1):
+            t = i / float(num_points)
+            x = x1 + t * (x2 - x1)
+            y = y1 + t * (y2 - y1)
+            path_msg.poses.append(self.create_pose(x, y, header))
         self.get_logger().info(f'Published path with {len(path_msg.poses)} waypoints.')
 
     def create_pose(self, x, y, header):
