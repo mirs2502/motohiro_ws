@@ -111,15 +111,19 @@ class ZigzagGenerator(Node):
         self.path_publisher_.publish(path_msg)
         self.get_logger().info(f'Published path with {len(path_msg.poses)} waypoints.')
 
-    def add_interpolated_poses(self, path_msg, x1, y1, x2, y2, header, resolution=0.1):
+    def add_interpolated_poses(self, path_msg, x1, y1, x2, y2, header, resolution=0.3):
         """
         2点間 (x1, y1) -> (x2, y2) を resolution 間隔で補間し、path_msg に追加する
         """
         dist = math.hypot(x2 - x1, y2 - y1)
         if dist < 1e-6:
             # 距離がほぼ0なら始点のみ追加（またはスキップ）
-            path_msg.poses.append(self.create_pose(x1, y1, header))
+            path_msg.poses.append(self.create_pose(x1, y1, header, 1.0, 0.0))
             return
+        
+        # Calculate direction vector for orientation
+        direction_x = (x2 - x1) / dist
+        direction_y = (y2 - y1) / dist
 
         num_points = int(dist / resolution)
         if num_points < 1:
@@ -129,16 +133,28 @@ class ZigzagGenerator(Node):
             t = i / float(num_points)
             x = x1 + t * (x2 - x1)
             y = y1 + t * (y2 - y1)
-            path_msg.poses.append(self.create_pose(x, y, header))
+            path_msg.poses.append(self.create_pose(x, y, header, direction_x, direction_y))
         self.get_logger().info(f'Published path with {len(path_msg.poses)} waypoints.')
 
-    def create_pose(self, x, y, header):
+    def create_pose(self, x, y, header, direction_x=1.0, direction_y=0.0):
+        """
+        Create a PoseStamped with proper orientation based on direction vector
+        """
         pose = PoseStamped()
         pose.header = header
         pose.pose.position.x = x
         pose.pose.position.y = y
         pose.pose.position.z = 0.0
-        pose.pose.orientation.w = 1.0 
+        
+        # Calculate yaw from direction vector
+        yaw = math.atan2(direction_y, direction_x)
+        
+        # Convert yaw to quaternion
+        pose.pose.orientation.x = 0.0
+        pose.pose.orientation.y = 0.0
+        pose.pose.orientation.z = math.sin(yaw / 2.0)
+        pose.pose.orientation.w = math.cos(yaw / 2.0)
+        
         return pose
 
     def calculate_polygon_area(self, points):
