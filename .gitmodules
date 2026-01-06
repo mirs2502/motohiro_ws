@@ -1,0 +1,21 @@
+[submodule "src/bt_pkg"]
+	path = src/bt_pkg
+	url = https://github.com/mirs2502/bt_pkg
+[submodule "src/cone_detector"]
+	path = src/cone_detector
+	url = https://github.com/mirs2502/cone_detector_package
+[submodule "src/Groot"]
+	path = src/Groot
+	url = https://github.com/BehaviorTree/Groot.git
+[submodule "src/mirs_description"]
+	path = src/mirs_description
+	url = https://github.com/mirs2502/mirs_description.git
+[submodule "src/mirs_mg5"]
+	path = src/mirs_mg5
+	url = https://github.com/mirs2502/mirs_mg5.git
+[submodule "src/mirs_msgs"]
+	path = src/mirs_msgs
+	url = https://github.com/mirs240x/mirs_msgs.git
+[submodule "src/sllidar_ros2"]
+	path = src/sllidar_ros2
+	url = https://github.com/Slamtec/sllidar_ros2.git
