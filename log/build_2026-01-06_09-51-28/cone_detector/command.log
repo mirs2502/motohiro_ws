@@ -1,0 +1,1 @@
+Invoking command in '/home/yzksy/mirs2502_standard/build/cone_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yzksy/mirs2502_standard/src/cone_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yzksy/mirs2502_standard/install/cone_detector

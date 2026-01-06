@@ -1,0 +1,13 @@
+{
+  "package_name": "mirs_msgs",
+  "non_idl_tuples": [
+    "/home/yzksy/mirs2502_standard/src/mirs_msgs:srv/Params.srv",
+    "/home/yzksy/mirs2502_standard/src/mirs_msgs:srv/ParameterUpdate.srv",
+    "/home/yzksy/mirs2502_standard/src/mirs_msgs:srv/SimpleCommand.srv",
+    "/home/yzksy/mirs2502_standard/src/mirs_msgs:srv/BasicCommand.srv",
+    "/home/yzksy/mirs2502_standard/src/mirs_msgs:srv/NumberCommand.srv",
+    "/home/yzksy/mirs2502_standard/src/mirs_msgs:msg/BasicParam.msg",
+    "/home/yzksy/mirs2502_standard/src/mirs_msgs:action/Trigger.action",
+    "/home/yzksy/mirs2502_standard/src/mirs_msgs:action/ParameterTrigger.action"
+  ]
+}

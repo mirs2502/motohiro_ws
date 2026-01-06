@@ -1,0 +1,1 @@
+/home/yzksy/mirs2502_standard/build/groot/ament_cmake_environment_hooks/local_setup.zsh

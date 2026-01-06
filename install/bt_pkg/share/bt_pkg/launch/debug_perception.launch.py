@@ -1,0 +1,1 @@
+/home/yzksy/mirs2502_standard/src/bt_pkg/launch/debug_perception.launch.py

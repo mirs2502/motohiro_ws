@@ -1,0 +1,64 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/cone_fusion_node.dir/src/cone_fusion_node.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/cone_cluster_node.dir/src/cone_cluster_node.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/cone_color_detector_node.dir/src/cone_color_detector_node.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/cone_area_node.dir/src/cone_area_node.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/scan_to_pointcloud.dir/src/scan_to_pointcloud.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cone_costmap_layer.dir/src/cone_costmap_layer.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable scan_to_pointcloud[0m
+[ 58%] Built target scan_to_pointcloud
+[ 66%] [32m[1mLinking CXX shared library libcone_costmap_layer.so[0m
+[ 75%] [32m[1mLinking CXX executable cone_cluster_node[0m
+[ 83%] [32m[1mLinking CXX executable cone_color_detector_node[0m
+[ 83%] Built target cone_costmap_layer
+[ 83%] Built target cone_cluster_node
+[ 83%] Built target cone_color_detector_node
+[ 91%] [32m[1mLinking CXX executable cone_fusion_node[0m
+[100%] [32m[1mLinking CXX executable cone_area_node[0m
+[100%] Built target cone_fusion_node
+[100%] Built target cone_area_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/lib/cone_detector/cone_color_detector_node
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/lib/cone_detector/cone_fusion_node
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/lib/cone_detector/scan_to_pointcloud
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/lib/cone_detector/cone_cluster_node
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/lib/cone_detector/cone_area_node
+-- Up-to-date symlink: /home/yzksy/mirs2502_standard/install/cone_detector/lib/cone_detector/cone_color_detector_node
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector//launch/chair_detection.launch.py
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector//launch/cone_detection.launch.py
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector//launch/costmap_test.launch.py
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector//launch/debug_all.launch.py
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector//launch/lidar_only.launch.py
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector//launch/real_robot_test.launch.py
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector//rviz/cone_debug.rviz
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector//rviz/ekf_test.rviz
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector//costmap_plugins.xml
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/lib/libcone_costmap_layer.so
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/include/cone_detector/cone_costmap_layer.hpp
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/include/tf2_shim/tf2/buffer_core.hpp
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/include/tf2_shim/tf2/convert.hpp
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/include/tf2_shim/tf2/exceptions.hpp
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/include/tf2_shim/tf2/time.hpp
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/include/tf2_shim/tf2/transform_datatypes.hpp
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/environment/library_path.sh
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/environment/library_path.dsv
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/ament_index/resource_index/package_run_dependencies/cone_detector
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/ament_index/resource_index/parent_prefix_path/cone_detector
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/environment/ament_prefix_path.sh
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/environment/ament_prefix_path.dsv
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/environment/path.sh
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/environment/path.dsv
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/local_setup.bash
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/local_setup.sh
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/local_setup.zsh
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/local_setup.dsv
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/package.dsv
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/ament_index/resource_index/packages/cone_detector
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/cone_detector
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/cmake/cone_detectorConfig.cmake
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/cmake/cone_detectorConfig-version.cmake
+-- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/package.xml
+-- Installing: /home/yzksy/mirs2502_standard/install/cone_detector/lib/cone_detector/landmark_localizer

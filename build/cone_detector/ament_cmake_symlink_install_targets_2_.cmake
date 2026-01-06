@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/yzksy/mirs2502_standard/build/cone_detector/libcone_costmap_layer.so" "TARGETS" "cone_costmap_layer" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

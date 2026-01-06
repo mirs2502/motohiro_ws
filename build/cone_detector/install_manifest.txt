@@ -1,0 +1,1 @@
+/home/yzksy/mirs2502_standard/install/cone_detector/lib/cone_detector/landmark_localizer

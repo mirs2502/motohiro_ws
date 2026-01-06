@@ -1,0 +1,1 @@
+/home/yzksy/mirs2502_standard/build/cone_detector/ament_cmake_core/cone_detectorConfig-version.cmake

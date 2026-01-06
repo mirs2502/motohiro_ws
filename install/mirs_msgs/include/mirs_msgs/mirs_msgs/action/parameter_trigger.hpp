@@ -1,0 +1,1 @@
+/home/yzksy/mirs2502_standard/build/mirs_msgs/rosidl_generator_cpp/mirs_msgs/action/parameter_trigger.hpp

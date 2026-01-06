@@ -1,0 +1,107 @@
+[0.012s] Invoking command in '/home/yzksy/mirs2502_standard/build/bt_pkg': AMENT_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:/home/yzksy/mirs2502_standard/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/sllidar_ros2:/home/yzksy/mirs2502_standard/src/install/mirs:/home/yzksy/mirs2502_standard/src/install/bt_pkg:/home/yzksy/mirs2502_standard/src/install/mirs_msgs:/home/yzksy/mirs2502_standard/src/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/micro_ros_agent:/home/yzksy/mirs2502_standard/src/install/groot:/home/yzksy/mirs2502_standard/src/install/cone_detector:/home/yzksy/install/chair_detector:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/yzksy/mirs2502_standard/src/bt_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yzksy/mirs2502_standard/install/bt_pkg
+[0.026s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.156s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.164s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.194s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.196s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.202s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.212s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.224s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.261s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.263s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.421s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.476s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.491s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.511s] -- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)
+[0.559s] -- Found nav2_behavior_tree: 1.1.20 (/opt/ros/humble/share/nav2_behavior_tree/cmake)
+[0.688s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.689s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.741s] -- Found mirs_msgs: 0.0.1 (/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/cmake)
+[0.755s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.791s] -- Checking for module 'eigen3'
+[0.808s] --   Found eigen3, version 3.4.0
+[0.854s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.854s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.911s] -- Checking for module 'flann'
+[0.932s] --   Found flann, version 1.9.1
+[0.994s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.994s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.255s] -- Checking for module 'libusb-1.0'
+[2.275s] --   Found libusb-1.0, version 1.0.25
+[2.331s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.333s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.414s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.601s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.608s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.616s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.765s] -- Found Qhull version 8.0.2
+[2.925s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.078s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.079s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.079s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.080s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.081s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.082s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.082s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.082s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.083s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.084s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.085s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.086s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.087s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.088s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.089s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.089s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.090s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.091s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.092s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.093s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.094s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.094s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.095s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.097s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.099s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.203s] -- Configuring done
+[3.289s] -- Generating done
+[3.301s] -- Build files have been written to: /home/yzksy/mirs2502_standard/build/bt_pkg
+[3.325s] Invoked command in '/home/yzksy/mirs2502_standard/build/bt_pkg' returned '0': AMENT_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:/home/yzksy/mirs2502_standard/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/sllidar_ros2:/home/yzksy/mirs2502_standard/src/install/mirs:/home/yzksy/mirs2502_standard/src/install/bt_pkg:/home/yzksy/mirs2502_standard/src/install/mirs_msgs:/home/yzksy/mirs2502_standard/src/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/micro_ros_agent:/home/yzksy/mirs2502_standard/src/install/groot:/home/yzksy/mirs2502_standard/src/install/cone_detector:/home/yzksy/install/chair_detector:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/yzksy/mirs2502_standard/src/bt_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yzksy/mirs2502_standard/install/bt_pkg
+[3.327s] Invoking command in '/home/yzksy/mirs2502_standard/build/bt_pkg': AMENT_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:/home/yzksy/mirs2502_standard/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/sllidar_ros2:/home/yzksy/mirs2502_standard/src/install/mirs:/home/yzksy/mirs2502_standard/src/install/bt_pkg:/home/yzksy/mirs2502_standard/src/install/mirs_msgs:/home/yzksy/mirs2502_standard/src/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/micro_ros_agent:/home/yzksy/mirs2502_standard/src/install/groot:/home/yzksy/mirs2502_standard/src/install/cone_detector:/home/yzksy/install/chair_detector:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/bt_pkg -- -j16 -l16
+[3.393s] [ 50%] [32mBuilding CXX object CMakeFiles/bt_executor.dir/src/main.cpp.o[0m
+[22.031s] [100%] [32m[1mLinking CXX executable bt_executor[0m
+[23.524s] [100%] Built target bt_executor
+[23.535s] Invoked command in '/home/yzksy/mirs2502_standard/build/bt_pkg' returned '0': AMENT_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:/home/yzksy/mirs2502_standard/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/sllidar_ros2:/home/yzksy/mirs2502_standard/src/install/mirs:/home/yzksy/mirs2502_standard/src/install/bt_pkg:/home/yzksy/mirs2502_standard/src/install/mirs_msgs:/home/yzksy/mirs2502_standard/src/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/micro_ros_agent:/home/yzksy/mirs2502_standard/src/install/groot:/home/yzksy/mirs2502_standard/src/install/cone_detector:/home/yzksy/install/chair_detector:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/bt_pkg -- -j16 -l16
+[23.536s] Invoking command in '/home/yzksy/mirs2502_standard/build/bt_pkg': AMENT_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:/home/yzksy/mirs2502_standard/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/sllidar_ros2:/home/yzksy/mirs2502_standard/src/install/mirs:/home/yzksy/mirs2502_standard/src/install/bt_pkg:/home/yzksy/mirs2502_standard/src/install/mirs_msgs:/home/yzksy/mirs2502_standard/src/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/micro_ros_agent:/home/yzksy/mirs2502_standard/src/install/groot:/home/yzksy/mirs2502_standard/src/install/cone_detector:/home/yzksy/install/chair_detector:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/bt_pkg
+[23.543s] -- Install configuration: ""
+[23.543s] -- Execute custom install script
+[23.543s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/lib/bt_pkg/bt_executor
+[23.552s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/behavior_tree/bt_mission.xml
+[23.559s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/behavior_tree/bt_mission_odom_only.xml
+[23.566s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/behavior_tree/motor_test_service.xml
+[23.574s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/behavior_tree/motor_test_topic.xml
+[23.582s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/behavior_tree/nav2_motor_test.xml
+[23.589s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/behavior_tree/palette.xml
+[23.597s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/launch/debug_perception.launch.py
+[23.605s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/launch/motor_test_service.launch.py
+[23.612s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/launch/motor_test_topic.launch.py
+[23.618s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/launch/nav2_motor_test.launch.py
+[23.625s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/launch/real_mission.launch.py
+[23.634s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/launch/simulation_mission.launch.py
+[23.642s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/worlds/cone_world.world
+[23.651s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/maps/cone_map.pgm
+[23.659s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/maps/cone_map.yaml
+[23.668s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/ament_index/resource_index/package_run_dependencies/bt_pkg
+[23.679s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/ament_index/resource_index/parent_prefix_path/bt_pkg
+[23.688s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/environment/ament_prefix_path.sh
+[23.697s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/environment/ament_prefix_path.dsv
+[23.705s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/environment/path.sh
+[23.713s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/environment/path.dsv
+[23.721s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/local_setup.bash
+[23.729s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/local_setup.sh
+[23.737s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/local_setup.zsh
+[23.744s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/local_setup.dsv
+[23.753s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/package.dsv
+[23.760s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/ament_index/resource_index/packages/bt_pkg
+[23.769s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/cmake/bt_pkgConfig.cmake
+[23.777s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/cmake/bt_pkgConfig-version.cmake
+[23.786s] -- Symlinking: /home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/package.xml
+[23.798s] Invoked command in '/home/yzksy/mirs2502_standard/build/bt_pkg' returned '0': AMENT_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:/home/yzksy/mirs2502_standard/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/sllidar_ros2:/home/yzksy/mirs2502_standard/src/install/mirs:/home/yzksy/mirs2502_standard/src/install/bt_pkg:/home/yzksy/mirs2502_standard/src/install/mirs_msgs:/home/yzksy/mirs2502_standard/src/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/micro_ros_agent:/home/yzksy/mirs2502_standard/src/install/groot:/home/yzksy/mirs2502_standard/src/install/cone_detector:/home/yzksy/install/chair_detector:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/bt_pkg

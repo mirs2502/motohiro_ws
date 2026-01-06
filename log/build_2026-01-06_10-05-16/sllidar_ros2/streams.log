@@ -1,0 +1,54 @@
+[0.015s] Invoking command in '/home/yzksy/mirs2502_standard/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/sllidar_ros2 -- -j16 -l16
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target sllidar_client[0m
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target sllidar_node[0m
+[0.081s] [ 10%] Built target sllidar_client
+[0.105s] [100%] Built target sllidar_node
+[0.121s] Invoked command in '/home/yzksy/mirs2502_standard/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/sllidar_ros2 -- -j16 -l16
+[0.124s] Invoking command in '/home/yzksy/mirs2502_standard/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/sllidar_ros2
+[0.133s] -- Install configuration: ""
+[0.133s] -- Execute custom install script
+[0.134s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[0.147s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[0.156s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[0.165s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[0.175s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[0.187s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[0.199s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[0.208s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[0.218s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[0.228s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[0.237s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[0.247s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[0.257s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[0.266s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[0.276s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[0.284s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[0.294s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[0.304s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[0.317s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[0.327s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[0.337s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[0.350s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[0.361s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[0.373s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[0.382s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[0.391s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[0.401s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[0.413s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[0.422s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[0.432s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[0.441s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[0.450s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[0.462s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[0.472s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[0.484s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[0.495s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[0.505s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[0.515s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[0.525s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[0.536s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.546s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.557s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[0.568s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[0.578s] -- Symlinking: /home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[0.589s] Invoked command in '/home/yzksy/mirs2502_standard/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/sllidar_ros2

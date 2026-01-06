@@ -1,0 +1,1 @@
+/home/yzksy/mirs2502_standard/build/mirs_description/ament_cmake_core/mirs_descriptionConfig.cmake

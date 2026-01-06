@@ -1,0 +1,3 @@
+Invoking command in '/home/yzksy/mirs2502_standard/build/groot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yzksy/mirs2502_standard/src/Groot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yzksy/mirs2502_standard/install/groot
+Invoked command in '/home/yzksy/mirs2502_standard/build/groot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yzksy/mirs2502_standard/src/Groot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yzksy/mirs2502_standard/install/groot
+Invoking command in '/home/yzksy/mirs2502_standard/build/groot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/groot -- -j16 -l16

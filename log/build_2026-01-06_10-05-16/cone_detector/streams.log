@@ -1,0 +1,68 @@
+[0.018s] Invoking command in '/home/yzksy/mirs2502_standard/build/cone_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/cone_detector -- -j16 -l16
+[0.072s] [ 16%] [32mBuilding CXX object CMakeFiles/cone_fusion_node.dir/src/cone_fusion_node.cpp.o[0m
+[0.072s] [ 16%] [32mBuilding CXX object CMakeFiles/cone_cluster_node.dir/src/cone_cluster_node.cpp.o[0m
+[0.072s] [ 25%] [32mBuilding CXX object CMakeFiles/cone_color_detector_node.dir/src/cone_color_detector_node.cpp.o[0m
+[0.073s] [ 41%] [32mBuilding CXX object CMakeFiles/cone_area_node.dir/src/cone_area_node.cpp.o[0m
+[0.073s] [ 41%] [32mBuilding CXX object CMakeFiles/scan_to_pointcloud.dir/src/scan_to_pointcloud.cpp.o[0m
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/cone_costmap_layer.dir/src/cone_costmap_layer.cpp.o[0m
+[13.245s] [ 58%] [32m[1mLinking CXX executable scan_to_pointcloud[0m
+[14.183s] [ 58%] Built target scan_to_pointcloud
+[14.828s] [ 66%] [32m[1mLinking CXX shared library libcone_costmap_layer.so[0m
+[14.977s] [ 75%] [32m[1mLinking CXX executable cone_cluster_node[0m
+[15.836s] [ 83%] [32m[1mLinking CXX executable cone_color_detector_node[0m
+[16.212s] [ 83%] Built target cone_costmap_layer
+[16.879s] [ 83%] Built target cone_cluster_node
+[16.972s] [ 83%] Built target cone_color_detector_node
+[17.764s] [ 91%] [32m[1mLinking CXX executable cone_fusion_node[0m
+[17.919s] [100%] [32m[1mLinking CXX executable cone_area_node[0m
+[19.189s] [100%] Built target cone_fusion_node
+[19.651s] [100%] Built target cone_area_node
+[19.662s] Invoked command in '/home/yzksy/mirs2502_standard/build/cone_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/cone_detector -- -j16 -l16
+[19.663s] Invoking command in '/home/yzksy/mirs2502_standard/build/cone_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/cone_detector
+[19.670s] -- Install configuration: ""
+[19.670s] -- Execute custom install script
+[19.670s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/lib/cone_detector/cone_color_detector_node
+[19.678s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/lib/cone_detector/cone_fusion_node
+[19.687s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/lib/cone_detector/scan_to_pointcloud
+[19.695s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/lib/cone_detector/cone_cluster_node
+[19.702s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/lib/cone_detector/cone_area_node
+[19.710s] -- Up-to-date symlink: /home/yzksy/mirs2502_standard/install/cone_detector/lib/cone_detector/cone_color_detector_node
+[19.711s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector//launch/chair_detection.launch.py
+[19.719s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector//launch/cone_detection.launch.py
+[19.728s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector//launch/costmap_test.launch.py
+[19.736s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector//launch/debug_all.launch.py
+[19.744s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector//launch/lidar_only.launch.py
+[19.751s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector//launch/real_robot_test.launch.py
+[19.760s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector//rviz/cone_debug.rviz
+[19.767s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector//rviz/ekf_test.rviz
+[19.776s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector//costmap_plugins.xml
+[19.784s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/lib/libcone_costmap_layer.so
+[19.793s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/include/cone_detector/cone_costmap_layer.hpp
+[19.801s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/include/tf2_shim/tf2/buffer_core.hpp
+[19.809s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/include/tf2_shim/tf2/convert.hpp
+[19.817s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/include/tf2_shim/tf2/exceptions.hpp
+[19.825s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/include/tf2_shim/tf2/time.hpp
+[19.833s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/include/tf2_shim/tf2/transform_datatypes.hpp
+[19.840s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/environment/library_path.sh
+[19.848s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/environment/library_path.dsv
+[19.855s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/ament_index/resource_index/package_run_dependencies/cone_detector
+[19.864s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/ament_index/resource_index/parent_prefix_path/cone_detector
+[19.872s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/environment/ament_prefix_path.sh
+[19.882s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/environment/ament_prefix_path.dsv
+[19.893s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/environment/path.sh
+[19.906s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/environment/path.dsv
+[19.917s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/local_setup.bash
+[19.927s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/local_setup.sh
+[19.936s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/local_setup.zsh
+[19.945s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/local_setup.dsv
+[19.953s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/package.dsv
+[19.962s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/ament_index/resource_index/packages/cone_detector
+[19.971s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/cone_detector
+[19.979s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.987s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/cmake/ament_cmake_export_libraries-extras.cmake
+[19.995s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.003s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/cmake/cone_detectorConfig.cmake
+[20.012s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/cmake/cone_detectorConfig-version.cmake
+[20.020s] -- Symlinking: /home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/package.xml
+[20.028s] -- Installing: /home/yzksy/mirs2502_standard/install/cone_detector/lib/cone_detector/landmark_localizer
+[20.030s] Invoked command in '/home/yzksy/mirs2502_standard/build/cone_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/cone_detector

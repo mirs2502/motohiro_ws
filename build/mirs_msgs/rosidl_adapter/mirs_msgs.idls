@@ -1,0 +1,8 @@
+/home/yzksy/mirs2502_standard/build/mirs_msgs/rosidl_adapter/mirs_msgs:srv/Params.idl
+/home/yzksy/mirs2502_standard/build/mirs_msgs/rosidl_adapter/mirs_msgs:srv/ParameterUpdate.idl
+/home/yzksy/mirs2502_standard/build/mirs_msgs/rosidl_adapter/mirs_msgs:srv/SimpleCommand.idl
+/home/yzksy/mirs2502_standard/build/mirs_msgs/rosidl_adapter/mirs_msgs:srv/BasicCommand.idl
+/home/yzksy/mirs2502_standard/build/mirs_msgs/rosidl_adapter/mirs_msgs:srv/NumberCommand.idl
+/home/yzksy/mirs2502_standard/build/mirs_msgs/rosidl_adapter/mirs_msgs:msg/BasicParam.idl
+/home/yzksy/mirs2502_standard/build/mirs_msgs/rosidl_adapter/mirs_msgs:action/Trigger.idl
+/home/yzksy/mirs2502_standard/build/mirs_msgs/rosidl_adapter/mirs_msgs:action/ParameterTrigger.idl

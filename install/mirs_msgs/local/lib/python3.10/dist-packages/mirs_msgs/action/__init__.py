@@ -1,0 +1,1 @@
+/home/yzksy/mirs2502_standard/build/mirs_msgs/rosidl_generator_py/mirs_msgs/action/__init__.py

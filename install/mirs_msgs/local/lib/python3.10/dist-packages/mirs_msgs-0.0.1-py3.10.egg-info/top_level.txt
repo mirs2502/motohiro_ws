@@ -1,0 +1,1 @@
+/home/yzksy/mirs2502_standard/build/mirs_msgs/ament_cmake_python/mirs_msgs/mirs_msgs.egg-info/top_level.txt

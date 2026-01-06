@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mirs_msgs__py",
+		"source" : "/home/yzksy/mirs2502_standard/build/mirs_msgs/mirs_msgs__py"
+	}
+}

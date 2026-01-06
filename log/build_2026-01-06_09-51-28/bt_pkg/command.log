@@ -1,0 +1,2 @@
+Invoking command in '/home/yzksy/mirs2502_standard/build/bt_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yzksy/mirs2502_standard/src/bt_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yzksy/mirs2502_standard/install/bt_pkg
+Invoked command in '/home/yzksy/mirs2502_standard/build/bt_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yzksy/mirs2502_standard/src/bt_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yzksy/mirs2502_standard/install/bt_pkg

@@ -1,0 +1,674 @@
+[0.078s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.078s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7189e923d7b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7189e923d270>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7189e923d270>>)
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.204s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yzksy/mirs2502_standard'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(coverage_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(coverage_planner) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(coverage_planner) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(coverage_planner) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(coverage_planner) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(coverage_planner) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(coverage_planner) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(coverage_planner) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(coverage_planner) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(coverage_planner) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(coverage_planner) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(coverage_planner) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(coverage_planner) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(coverage_planner) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/Groot) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/Groot) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/Groot) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/Groot) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/Groot) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/Groot) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/Groot) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/Groot) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/Groot) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Groot' with type 'ros.ament_cmake' and name 'groot'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_pkg) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_pkg) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_pkg) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_pkg) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_pkg) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_pkg) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_pkg) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_pkg) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bt_pkg' with type 'ros.ament_cmake' and name 'bt_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_detector) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_detector) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_detector) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_detector) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_detector) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_detector) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_detector) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_detector) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cone_detector' with type 'ros.ament_cmake' and name 'cone_detector'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner/__pycache__) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner/__pycache__) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner/__pycache__) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner/__pycache__) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner/__pycache__) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner/__pycache__) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner/__pycache__) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner/__pycache__) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner/__pycache__) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner/__pycache__) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner/__pycache__) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner/__pycache__) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner/coverage_planner/__pycache__) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_description) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_description) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_description) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_description) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_description) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_description) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_description) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_description) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_description) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mirs_description' with type 'ros.ament_cmake' and name 'mirs_description'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/config) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/config) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/config) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/config) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/config) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/config) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/config) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/config) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/config) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/config) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/config) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/config) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/config) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/config) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch/__pycache__) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch/__pycache__) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch/__pycache__) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch/__pycache__) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch/__pycache__) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch/__pycache__) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch/__pycache__) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch/__pycache__) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch/__pycache__) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch/__pycache__) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch/__pycache__) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch/__pycache__) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/launch/__pycache__) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/maps) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/maps) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/maps) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/maps) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/maps) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/maps) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/maps) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/maps) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/maps) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/maps) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/maps) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/maps) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/maps) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/maps) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/rviz) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/rviz) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/rviz) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/rviz) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/rviz) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/rviz) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/rviz) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/rviz) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/rviz) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/rviz) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/rviz) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/rviz) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/rviz) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/scripts) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/scripts) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/scripts) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/scripts) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/scripts) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/scripts) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/scripts) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/scripts) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/scripts) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/scripts) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/scripts) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/scripts) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_mg5/mirs/scripts) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_msgs) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_msgs) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_msgs) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_msgs) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_msgs) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_msgs) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_msgs) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/mirs_msgs) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mirs_msgs' with type 'ros.ament_cmake' and name 'mirs_msgs'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.251s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/yzksy/mirs2502_standard/src/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.251s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yzksy/mirs2502_standard/src/install/sllidar_ros2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.251s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yzksy/mirs2502_standard/src/install/mirs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.251s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yzksy/mirs2502_standard/src/install/bt_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.251s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yzksy/mirs2502_standard/src/install/mirs_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.251s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yzksy/mirs2502_standard/src/install/mirs_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.251s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yzksy/mirs2502_standard/src/install/micro_ros_agent' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.251s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yzksy/mirs2502_standard/src/install/groot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.251s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yzksy/mirs2502_standard/src/install/coverage_planner' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.251s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yzksy/mirs2502_standard/src/install/cone_detector' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.256s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/yzksy/mirs2502_standard/src/install/sllidar_ros2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.256s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/yzksy/mirs2502_standard/src/install/mirs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.257s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/yzksy/mirs2502_standard/src/install/bt_pkg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.257s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/yzksy/mirs2502_standard/src/install/mirs_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.257s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/yzksy/mirs2502_standard/src/install/mirs_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.257s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/yzksy/mirs2502_standard/src/install/micro_ros_agent' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.257s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/yzksy/mirs2502_standard/src/install/groot' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.257s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/yzksy/mirs2502_standard/src/install/cone_detector' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.258s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/yzksy/mirs2502_standard/install
+[0.258s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/yzksy/install
+[0.259s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 384 installed packages in /opt/ros/humble
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'cone_detector' build argument 'cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'cone_detector' build argument 'cmake_target' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'cone_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'cone_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'cone_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'cone_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'cone_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'cone_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'cone_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.297s] DEBUG:colcon.colcon_core.verb:Building package 'cone_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yzksy/mirs2502_standard/build/cone_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yzksy/mirs2502_standard/install/cone_detector', 'merge_install': False, 'path': '/home/yzksy/mirs2502_standard/src/cone_detector', 'symlink_install': True, 'test_result_base': None}
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'groot' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'groot' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'groot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'groot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'groot' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'groot' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'groot' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'groot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'groot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'groot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yzksy/mirs2502_standard/build/groot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yzksy/mirs2502_standard/install/groot', 'merge_install': False, 'path': '/home/yzksy/mirs2502_standard/src/Groot', 'symlink_install': True, 'test_result_base': None}
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'mirs_description' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'mirs_description' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'mirs_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'mirs_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'mirs_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'mirs_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'mirs_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'mirs_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'mirs_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'mirs_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yzksy/mirs2502_standard/build/mirs_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yzksy/mirs2502_standard/install/mirs_description', 'merge_install': False, 'path': '/home/yzksy/mirs2502_standard/src/mirs_description', 'symlink_install': True, 'test_result_base': None}
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'mirs_msgs' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'mirs_msgs' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'mirs_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'mirs_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'mirs_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'mirs_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'mirs_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'mirs_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'mirs_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'mirs_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yzksy/mirs2502_standard/build/mirs_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yzksy/mirs2502_standard/install/mirs_msgs', 'merge_install': False, 'path': '/home/yzksy/mirs2502_standard/src/mirs_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yzksy/mirs2502_standard/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yzksy/mirs2502_standard/install/sllidar_ros2', 'merge_install': False, 'path': '/home/yzksy/mirs2502_standard/src/sllidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'bt_pkg' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'bt_pkg' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'bt_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'bt_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'bt_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'bt_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'bt_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'bt_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'bt_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'bt_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yzksy/mirs2502_standard/build/bt_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yzksy/mirs2502_standard/install/bt_pkg', 'merge_install': False, 'path': '/home/yzksy/mirs2502_standard/src/bt_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.300s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.300s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.301s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yzksy/mirs2502_standard/src/mirs_msgs' with build type 'ament_cmake'
+[0.301s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yzksy/mirs2502_standard/src/mirs_msgs'
+[0.302s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.306s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yzksy/mirs2502_standard/src/cone_detector' with build type 'ament_cmake'
+[0.306s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yzksy/mirs2502_standard/src/cone_detector'
+[0.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.309s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yzksy/mirs2502_standard/src/Groot' with build type 'ament_cmake'
+[0.309s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yzksy/mirs2502_standard/src/Groot'
+[0.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.313s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yzksy/mirs2502_standard/src/mirs_description' with build type 'ament_cmake'
+[0.313s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yzksy/mirs2502_standard/src/mirs_description'
+[0.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.316s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yzksy/mirs2502_standard/src/sllidar_ros2' with build type 'ament_cmake'
+[0.316s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yzksy/mirs2502_standard/src/sllidar_ros2'
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzksy/mirs2502_standard/build/mirs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake /home/yzksy/mirs2502_standard/src/mirs_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yzksy/mirs2502_standard/install/mirs_msgs
+[0.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzksy/mirs2502_standard/build/cone_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/cone_detector -- -j16 -l16
+[0.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzksy/mirs2502_standard/build/groot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/groot -- -j16 -l16
+[0.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzksy/mirs2502_standard/build/mirs_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/mirs_description -- -j16 -l16
+[0.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzksy/mirs2502_standard/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/sllidar_ros2 -- -j16 -l16
+[0.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzksy/mirs2502_standard/build/mirs_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/mirs_description -- -j16 -l16
+[0.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzksy/mirs2502_standard/build/mirs_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/mirs_description
+[0.405s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mirs_description)
+[0.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzksy/mirs2502_standard/build/mirs_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/mirs_description
+[0.409s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_description' for CMake module files
+[0.410s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_description' for CMake config files
+[0.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('mirs_description', 'cmake_prefix_path')
+[0.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/hook/cmake_prefix_path.ps1'
+[0.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/hook/cmake_prefix_path.dsv'
+[0.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/hook/cmake_prefix_path.sh'
+[0.412s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_description/bin'
+[0.413s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_description/lib/pkgconfig/mirs_description.pc'
+[0.413s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_description/lib/python3.10/site-packages'
+[0.413s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_description/bin'
+[0.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/package.ps1'
+[0.415s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/package.dsv'
+[0.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/package.sh'
+[0.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/package.bash'
+[0.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/package.zsh'
+[0.418s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzksy/mirs2502_standard/install/mirs_description/share/colcon-core/packages/mirs_description)
+[0.418s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mirs_description)
+[0.418s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_description' for CMake module files
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_description' for CMake config files
+[0.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('mirs_description', 'cmake_prefix_path')
+[0.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/hook/cmake_prefix_path.ps1'
+[0.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/hook/cmake_prefix_path.dsv'
+[0.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/hook/cmake_prefix_path.sh'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_description/bin'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_description/lib/pkgconfig/mirs_description.pc'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_description/lib/python3.10/site-packages'
+[0.422s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_description/bin'
+[0.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/package.ps1'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/package.dsv'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/package.sh'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/package.bash'
+[0.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/package.zsh'
+[0.425s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzksy/mirs2502_standard/install/mirs_description/share/colcon-core/packages/mirs_description)
+[0.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzksy/mirs2502_standard/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/sllidar_ros2 -- -j16 -l16
+[0.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzksy/mirs2502_standard/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/sllidar_ros2
+[0.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzksy/mirs2502_standard/build/groot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/groot -- -j16 -l16
+[0.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzksy/mirs2502_standard/build/groot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/groot
+[0.905s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[0.905s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/sllidar_ros2' for CMake module files
+[0.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzksy/mirs2502_standard/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/sllidar_ros2
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/sllidar_ros2' for CMake config files
+[0.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[0.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/sllidar_ros2/lib'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/sllidar_ros2/bin'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/sllidar_ros2/lib/python3.10/site-packages'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/sllidar_ros2/bin'
+[0.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[0.909s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[0.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[0.910s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzksy/mirs2502_standard/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[0.911s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[0.911s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/sllidar_ros2' for CMake module files
+[0.912s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/sllidar_ros2' for CMake config files
+[0.912s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[0.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[0.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[0.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/sllidar_ros2/lib'
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/sllidar_ros2/bin'
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/sllidar_ros2/lib/python3.10/site-packages'
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/sllidar_ros2/bin'
+[0.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[0.915s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[0.917s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzksy/mirs2502_standard/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[0.945s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(groot)
+[0.946s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/groot' for CMake module files
+[0.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzksy/mirs2502_standard/build/groot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/groot
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/groot' for CMake config files
+[0.947s] Level 1:colcon.colcon_core.shell:create_environment_hook('groot', 'cmake_prefix_path')
+[0.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/groot/share/groot/hook/cmake_prefix_path.ps1'
+[0.948s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzksy/mirs2502_standard/install/groot/share/groot/hook/cmake_prefix_path.dsv'
+[0.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/groot/share/groot/hook/cmake_prefix_path.sh'
+[0.949s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/groot/lib'
+[0.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('groot', 'ld_library_path_lib')
+[0.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/groot/share/groot/hook/ld_library_path_lib.ps1'
+[0.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzksy/mirs2502_standard/install/groot/share/groot/hook/ld_library_path_lib.dsv'
+[0.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/groot/share/groot/hook/ld_library_path_lib.sh'
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/groot/bin'
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/groot/lib/pkgconfig/groot.pc'
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/groot/lib/python3.10/site-packages'
+[0.951s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/groot/bin'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/groot/share/groot/package.ps1'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzksy/mirs2502_standard/install/groot/share/groot/package.dsv'
+[0.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/groot/share/groot/package.sh'
+[0.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/groot/share/groot/package.bash'
+[0.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/groot/share/groot/package.zsh'
+[0.953s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzksy/mirs2502_standard/install/groot/share/colcon-core/packages/groot)
+[0.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(groot)
+[0.953s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/groot' for CMake module files
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/groot' for CMake config files
+[0.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('groot', 'cmake_prefix_path')
+[0.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/groot/share/groot/hook/cmake_prefix_path.ps1'
+[0.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzksy/mirs2502_standard/install/groot/share/groot/hook/cmake_prefix_path.dsv'
+[0.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/groot/share/groot/hook/cmake_prefix_path.sh'
+[0.956s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/groot/lib'
+[0.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('groot', 'ld_library_path_lib')
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/groot/share/groot/hook/ld_library_path_lib.ps1'
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzksy/mirs2502_standard/install/groot/share/groot/hook/ld_library_path_lib.dsv'
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/groot/share/groot/hook/ld_library_path_lib.sh'
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/groot/bin'
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/groot/lib/pkgconfig/groot.pc'
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/groot/lib/python3.10/site-packages'
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/groot/bin'
+[0.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/groot/share/groot/package.ps1'
+[0.958s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzksy/mirs2502_standard/install/groot/share/groot/package.dsv'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/groot/share/groot/package.sh'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/groot/share/groot/package.bash'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/groot/share/groot/package.zsh'
+[0.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzksy/mirs2502_standard/install/groot/share/colcon-core/packages/groot)
+[2.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzksy/mirs2502_standard/build/mirs_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake /home/yzksy/mirs2502_standard/src/mirs_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yzksy/mirs2502_standard/install/mirs_msgs
+[2.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzksy/mirs2502_standard/build/mirs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/mirs_msgs -- -j16 -l16
+[9.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzksy/mirs2502_standard/build/mirs_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/mirs_msgs -- -j16 -l16
+[9.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzksy/mirs2502_standard/build/mirs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/mirs_msgs
+[11.863s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mirs_msgs)
+[11.863s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_msgs' for CMake module files
+[11.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzksy/mirs2502_standard/build/mirs_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/mirs_msgs
+[11.864s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_msgs' for CMake config files
+[11.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('mirs_msgs', 'cmake_prefix_path')
+[11.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/hook/cmake_prefix_path.ps1'
+[11.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/hook/cmake_prefix_path.dsv'
+[11.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/hook/cmake_prefix_path.sh'
+[11.867s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_msgs/lib'
+[11.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('mirs_msgs', 'ld_library_path_lib')
+[11.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/hook/ld_library_path_lib.ps1'
+[11.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/hook/ld_library_path_lib.dsv'
+[11.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/hook/ld_library_path_lib.sh'
+[11.868s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_msgs/bin'
+[11.868s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_msgs/lib/pkgconfig/mirs_msgs.pc'
+[11.868s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_msgs/lib/python3.10/site-packages'
+[11.869s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_msgs/bin'
+[11.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/package.ps1'
+[11.870s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/package.dsv'
+[11.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/package.sh'
+[11.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/package.bash'
+[11.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/package.zsh'
+[11.871s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzksy/mirs2502_standard/install/mirs_msgs/share/colcon-core/packages/mirs_msgs)
+[11.872s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mirs_msgs)
+[11.872s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_msgs' for CMake module files
+[11.872s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_msgs' for CMake config files
+[11.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('mirs_msgs', 'cmake_prefix_path')
+[11.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/hook/cmake_prefix_path.ps1'
+[11.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/hook/cmake_prefix_path.dsv'
+[11.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/hook/cmake_prefix_path.sh'
+[11.875s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_msgs/lib'
+[11.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('mirs_msgs', 'ld_library_path_lib')
+[11.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/hook/ld_library_path_lib.ps1'
+[11.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/hook/ld_library_path_lib.dsv'
+[11.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/hook/ld_library_path_lib.sh'
+[11.876s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_msgs/bin'
+[11.876s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_msgs/lib/pkgconfig/mirs_msgs.pc'
+[11.876s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_msgs/lib/python3.10/site-packages'
+[11.876s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/mirs_msgs/bin'
+[11.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/package.ps1'
+[11.877s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/package.dsv'
+[11.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/package.sh'
+[11.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/package.bash'
+[11.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/mirs_msgs/share/mirs_msgs/package.zsh'
+[11.879s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzksy/mirs2502_standard/install/mirs_msgs/share/colcon-core/packages/mirs_msgs)
+[11.879s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yzksy/mirs2502_standard/src/bt_pkg' with build type 'ament_cmake'
+[11.879s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yzksy/mirs2502_standard/src/bt_pkg'
+[11.880s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.880s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzksy/mirs2502_standard/build/bt_pkg': AMENT_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:/home/yzksy/mirs2502_standard/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/sllidar_ros2:/home/yzksy/mirs2502_standard/src/install/mirs:/home/yzksy/mirs2502_standard/src/install/bt_pkg:/home/yzksy/mirs2502_standard/src/install/mirs_msgs:/home/yzksy/mirs2502_standard/src/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/micro_ros_agent:/home/yzksy/mirs2502_standard/src/install/groot:/home/yzksy/mirs2502_standard/src/install/cone_detector:/home/yzksy/install/chair_detector:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/yzksy/mirs2502_standard/src/bt_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yzksy/mirs2502_standard/install/bt_pkg
+[15.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzksy/mirs2502_standard/build/bt_pkg' returned '0': AMENT_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:/home/yzksy/mirs2502_standard/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/sllidar_ros2:/home/yzksy/mirs2502_standard/src/install/mirs:/home/yzksy/mirs2502_standard/src/install/bt_pkg:/home/yzksy/mirs2502_standard/src/install/mirs_msgs:/home/yzksy/mirs2502_standard/src/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/micro_ros_agent:/home/yzksy/mirs2502_standard/src/install/groot:/home/yzksy/mirs2502_standard/src/install/cone_detector:/home/yzksy/install/chair_detector:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/yzksy/mirs2502_standard/src/bt_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yzksy/mirs2502_standard/install/bt_pkg
+[15.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzksy/mirs2502_standard/build/bt_pkg': AMENT_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:/home/yzksy/mirs2502_standard/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/sllidar_ros2:/home/yzksy/mirs2502_standard/src/install/mirs:/home/yzksy/mirs2502_standard/src/install/bt_pkg:/home/yzksy/mirs2502_standard/src/install/mirs_msgs:/home/yzksy/mirs2502_standard/src/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/micro_ros_agent:/home/yzksy/mirs2502_standard/src/install/groot:/home/yzksy/mirs2502_standard/src/install/cone_detector:/home/yzksy/install/chair_detector:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/bt_pkg -- -j16 -l16
+[19.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzksy/mirs2502_standard/build/cone_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/cone_detector -- -j16 -l16
+[19.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzksy/mirs2502_standard/build/cone_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/cone_detector
+[20.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cone_detector)
+[20.335s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/cone_detector' for CMake module files
+[20.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzksy/mirs2502_standard/build/cone_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/cone_detector
+[20.336s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/cone_detector' for CMake config files
+[20.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('cone_detector', 'cmake_prefix_path')
+[20.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/hook/cmake_prefix_path.ps1'
+[20.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/hook/cmake_prefix_path.dsv'
+[20.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/hook/cmake_prefix_path.sh'
+[20.338s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/cone_detector/lib'
+[20.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('cone_detector', 'ld_library_path_lib')
+[20.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/hook/ld_library_path_lib.ps1'
+[20.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/hook/ld_library_path_lib.dsv'
+[20.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/hook/ld_library_path_lib.sh'
+[20.339s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/cone_detector/bin'
+[20.339s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/cone_detector/lib/pkgconfig/cone_detector.pc'
+[20.339s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/cone_detector/lib/python3.10/site-packages'
+[20.339s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/cone_detector/bin'
+[20.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/package.ps1'
+[20.339s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/package.dsv'
+[20.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/package.sh'
+[20.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/package.bash'
+[20.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/package.zsh'
+[20.341s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzksy/mirs2502_standard/install/cone_detector/share/colcon-core/packages/cone_detector)
+[20.341s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cone_detector)
+[20.342s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/cone_detector' for CMake module files
+[20.342s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/cone_detector' for CMake config files
+[20.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('cone_detector', 'cmake_prefix_path')
+[20.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/hook/cmake_prefix_path.ps1'
+[20.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/hook/cmake_prefix_path.dsv'
+[20.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/hook/cmake_prefix_path.sh'
+[20.344s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/cone_detector/lib'
+[20.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('cone_detector', 'ld_library_path_lib')
+[20.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/hook/ld_library_path_lib.ps1'
+[20.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/hook/ld_library_path_lib.dsv'
+[20.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/hook/ld_library_path_lib.sh'
+[20.345s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/cone_detector/bin'
+[20.345s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/cone_detector/lib/pkgconfig/cone_detector.pc'
+[20.345s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/cone_detector/lib/python3.10/site-packages'
+[20.346s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/cone_detector/bin'
+[20.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/package.ps1'
+[20.346s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/package.dsv'
+[20.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/package.sh'
+[20.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/package.bash'
+[20.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/cone_detector/share/cone_detector/package.zsh'
+[20.348s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzksy/mirs2502_standard/install/cone_detector/share/colcon-core/packages/cone_detector)
+[35.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzksy/mirs2502_standard/build/bt_pkg' returned '0': AMENT_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:/home/yzksy/mirs2502_standard/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/sllidar_ros2:/home/yzksy/mirs2502_standard/src/install/mirs:/home/yzksy/mirs2502_standard/src/install/bt_pkg:/home/yzksy/mirs2502_standard/src/install/mirs_msgs:/home/yzksy/mirs2502_standard/src/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/micro_ros_agent:/home/yzksy/mirs2502_standard/src/install/groot:/home/yzksy/mirs2502_standard/src/install/cone_detector:/home/yzksy/install/chair_detector:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/bt_pkg -- -j16 -l16
+[35.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzksy/mirs2502_standard/build/bt_pkg': AMENT_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:/home/yzksy/mirs2502_standard/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/sllidar_ros2:/home/yzksy/mirs2502_standard/src/install/mirs:/home/yzksy/mirs2502_standard/src/install/bt_pkg:/home/yzksy/mirs2502_standard/src/install/mirs_msgs:/home/yzksy/mirs2502_standard/src/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/micro_ros_agent:/home/yzksy/mirs2502_standard/src/install/groot:/home/yzksy/mirs2502_standard/src/install/cone_detector:/home/yzksy/install/chair_detector:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/bt_pkg
+[35.678s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bt_pkg)
+[35.678s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/bt_pkg' for CMake module files
+[35.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzksy/mirs2502_standard/build/bt_pkg' returned '0': AMENT_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs:/home/yzksy/mirs2502_standard/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/sllidar_ros2:/home/yzksy/mirs2502_standard/src/install/mirs:/home/yzksy/mirs2502_standard/src/install/bt_pkg:/home/yzksy/mirs2502_standard/src/install/mirs_msgs:/home/yzksy/mirs2502_standard/src/install/mirs_description:/home/yzksy/mirs2502_standard/src/install/micro_ros_agent:/home/yzksy/mirs2502_standard/src/install/groot:/home/yzksy/mirs2502_standard/src/install/cone_detector:/home/yzksy/install/chair_detector:/home/yzksy/mirs2502_standard/src/install/coverage_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yzksy/mirs2502_standard/install/mirs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/bt_pkg
+[35.679s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/bt_pkg' for CMake config files
+[35.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('bt_pkg', 'cmake_prefix_path')
+[35.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/hook/cmake_prefix_path.ps1'
+[35.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/hook/cmake_prefix_path.dsv'
+[35.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/hook/cmake_prefix_path.sh'
+[35.681s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/bt_pkg/lib'
+[35.681s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/bt_pkg/bin'
+[35.681s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/bt_pkg/lib/pkgconfig/bt_pkg.pc'
+[35.681s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/bt_pkg/lib/python3.10/site-packages'
+[35.681s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/bt_pkg/bin'
+[35.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/package.ps1'
+[35.682s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/package.dsv'
+[35.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/package.sh'
+[35.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/package.bash'
+[35.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/package.zsh'
+[35.683s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzksy/mirs2502_standard/install/bt_pkg/share/colcon-core/packages/bt_pkg)
+[35.683s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bt_pkg)
+[35.684s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/bt_pkg' for CMake module files
+[35.684s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/bt_pkg' for CMake config files
+[35.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('bt_pkg', 'cmake_prefix_path')
+[35.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/hook/cmake_prefix_path.ps1'
+[35.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/hook/cmake_prefix_path.dsv'
+[35.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/hook/cmake_prefix_path.sh'
+[35.686s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/bt_pkg/lib'
+[35.686s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/bt_pkg/bin'
+[35.686s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/bt_pkg/lib/pkgconfig/bt_pkg.pc'
+[35.686s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/bt_pkg/lib/python3.10/site-packages'
+[35.686s] Level 1:colcon.colcon_core.environment:checking '/home/yzksy/mirs2502_standard/install/bt_pkg/bin'
+[35.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/package.ps1'
+[35.687s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/package.dsv'
+[35.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/package.sh'
+[35.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/package.bash'
+[35.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzksy/mirs2502_standard/install/bt_pkg/share/bt_pkg/package.zsh'
+[35.688s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzksy/mirs2502_standard/install/bt_pkg/share/colcon-core/packages/bt_pkg)
+[35.688s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[35.688s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[35.689s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[35.689s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[35.693s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[35.693s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[35.693s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[35.704s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[35.705s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yzksy/mirs2502_standard/install/local_setup.ps1'
+[35.706s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yzksy/mirs2502_standard/install/_local_setup_util_ps1.py'
+[35.707s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yzksy/mirs2502_standard/install/setup.ps1'
+[35.707s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yzksy/mirs2502_standard/install/local_setup.sh'
+[35.708s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yzksy/mirs2502_standard/install/_local_setup_util_sh.py'
+[35.708s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yzksy/mirs2502_standard/install/setup.sh'
+[35.709s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yzksy/mirs2502_standard/install/local_setup.bash'
+[35.710s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yzksy/mirs2502_standard/install/setup.bash'
+[35.710s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yzksy/mirs2502_standard/install/local_setup.zsh'
+[35.711s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yzksy/mirs2502_standard/install/setup.zsh'

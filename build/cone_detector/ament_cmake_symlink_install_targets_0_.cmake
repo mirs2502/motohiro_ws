@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/yzksy/mirs2502_standard/build/cone_detector/cone_color_detector_node" "/home/yzksy/mirs2502_standard/build/cone_detector/cone_fusion_node" "TARGETS" "cone_color_detector_node" "cone_fusion_node" "DESTINATION" "lib/cone_detector")

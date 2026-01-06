@@ -1,0 +1,10 @@
+/home/yzksy/mirs2502_standard/build/bt_pkg/CMakeFiles/uninstall.dir
+/home/yzksy/mirs2502_standard/build/bt_pkg/CMakeFiles/bt_pkg_uninstall.dir
+/home/yzksy/mirs2502_standard/build/bt_pkg/CMakeFiles/bt_executor.dir
+/home/yzksy/mirs2502_standard/build/bt_pkg/CMakeFiles/test.dir
+/home/yzksy/mirs2502_standard/build/bt_pkg/CMakeFiles/edit_cache.dir
+/home/yzksy/mirs2502_standard/build/bt_pkg/CMakeFiles/rebuild_cache.dir
+/home/yzksy/mirs2502_standard/build/bt_pkg/CMakeFiles/list_install_components.dir
+/home/yzksy/mirs2502_standard/build/bt_pkg/CMakeFiles/install.dir
+/home/yzksy/mirs2502_standard/build/bt_pkg/CMakeFiles/install/local.dir
+/home/yzksy/mirs2502_standard/build/bt_pkg/CMakeFiles/install/strip.dir

@@ -1,0 +1,1 @@
+/home/yzksy/mirs2502_standard/src/bt_pkg/launch/nav2_motor_test.launch.py

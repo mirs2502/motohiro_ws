@@ -1,0 +1,17 @@
+/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/urdf/mirs.urdf
+/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/launch/display.launch.py
+/home/yzksy/mirs2502_standard/install/mirs_description/share/ament_index/resource_index/package_run_dependencies/mirs_description
+/home/yzksy/mirs2502_standard/install/mirs_description/share/ament_index/resource_index/parent_prefix_path/mirs_description
+/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/environment/ament_prefix_path.sh
+/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/environment/ament_prefix_path.dsv
+/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/environment/path.sh
+/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/environment/path.dsv
+/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/local_setup.bash
+/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/local_setup.sh
+/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/local_setup.zsh
+/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/local_setup.dsv
+/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/package.dsv
+/home/yzksy/mirs2502_standard/install/mirs_description/share/ament_index/resource_index/packages/mirs_description
+/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/cmake/mirs_descriptionConfig.cmake
+/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/cmake/mirs_descriptionConfig-version.cmake
+/home/yzksy/mirs2502_standard/install/mirs_description/share/mirs_description/package.xml

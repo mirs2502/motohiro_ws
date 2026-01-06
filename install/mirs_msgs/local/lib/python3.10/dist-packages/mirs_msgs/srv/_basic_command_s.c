@@ -1,0 +1,1 @@
+/home/yzksy/mirs2502_standard/build/mirs_msgs/rosidl_generator_py/mirs_msgs/srv/_basic_command_s.c

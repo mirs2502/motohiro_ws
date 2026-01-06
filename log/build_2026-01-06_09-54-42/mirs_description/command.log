@@ -1,0 +1,4 @@
+Invoking command in '/home/yzksy/mirs2502_standard/build/mirs_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/mirs_description -- -j16 -l16
+Invoked command in '/home/yzksy/mirs2502_standard/build/mirs_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzksy/mirs2502_standard/build/mirs_description -- -j16 -l16
+Invoking command in '/home/yzksy/mirs2502_standard/build/mirs_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/mirs_description
+Invoked command in '/home/yzksy/mirs2502_standard/build/mirs_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yzksy/mirs2502_standard/build/mirs_description

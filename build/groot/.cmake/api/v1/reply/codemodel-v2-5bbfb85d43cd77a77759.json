@@ -1,0 +1,220 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-28c7a8bf84047908c9f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						5,
+						8,
+						11
+					]
+				},
+				{
+					"build" : "QtNodeEditor",
+					"jsonFile" : "directory-QtNodeEditor-fca5e1d2212ef5256865.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "QtNodeEditor",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "groot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						5,
+						8,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "QtNodeEditor",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "GrootTest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Groot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Groot-ac5dc89800722d65814d.json",
+					"name" : "Groot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Groot_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Groot_autogen-700e57fbff05ef94883c.json",
+					"name" : "Groot_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "QtNodeEditor::@b8987db7195ba95c5f5a",
+					"jsonFile" : "target-QtNodeEditor-b4dd09b698c8869c1925.json",
+					"name" : "QtNodeEditor",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "QtNodeEditor_autogen::@b8987db7195ba95c5f5a",
+					"jsonFile" : "target-QtNodeEditor_autogen-ba7adadf5f0ee96f2d8b.json",
+					"name" : "QtNodeEditor_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "behavior_tree_editor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-behavior_tree_editor-45ee0403753da3b4ad42.json",
+					"name" : "behavior_tree_editor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "behavior_tree_editor_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-behavior_tree_editor_autogen-e224c113a6d32671edb0.json",
+					"name" : "behavior_tree_editor_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "editor_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-editor_test-55edc824946970131b3f.json",
+					"name" : "editor_test",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "editor_test_autogen::@36f028580bb02cc8272a",
+					"jsonFile" : "target-editor_test_autogen-c9cd696b256020a5d99d.json",
+					"name" : "editor_test_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "groot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-groot_uninstall-c55992c2f5456678929d.json",
+					"name" : "groot_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "replay_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-replay_test-f30649131e4370c559c7.json",
+					"name" : "replay_test",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "replay_test_autogen::@36f028580bb02cc8272a",
+					"jsonFile" : "target-replay_test_autogen-b47fc97ead919b1d3d2a.json",
+					"name" : "replay_test_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e8d942d031756110f8ee.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yzksy/mirs2502_standard/build/groot",
+		"source" : "/home/yzksy/mirs2502_standard/src/Groot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1 @@
+/home/yzksy/mirs2502_standard/build/mirs_msgs/rosidl_typesupport_introspection_c/mirs_msgs/msg/detail/basic_param__rosidl_typesupport_introspection_c.h

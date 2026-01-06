@@ -1,0 +1,1 @@
+/home/yzksy/mirs2502_standard/build/mirs_msgs/rosidl_generator_c/mirs_msgs/msg/basic_param.h
